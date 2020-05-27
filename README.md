@@ -11,7 +11,7 @@ To run the application run ``` scrapy crawl spider-name ``` in _Anaconda termina
 # Create a project
 
 ```
-    scrapy startproject tutorial
+    scrapy startproject project-name
 ```
 
 # Run spider
