@@ -1,0 +1,10 @@
+<p>This application will scrap stock data from <a href="https://markets.businessinsider.com/index/components/s&amp;p_500" title="Business Insider">Business Insider</a></p>
+<h1 id="create-a-project">Create a project</h1>
+<pre><code>    scrapy startproject tutorial</code></pre>
+<h1 id="run-spider">Run spider</h1>
+<pre><code>    scrapy crawl spider-name
+    scrapy crawl spider-name -o output-file-name.json
+    scrapy crawl spider-name -o output-file-name.jl #json lines</code></pre>
+<h1 id="extracting-data-using-scrapy-shell">Extracting data using Scrapy shell</h1>
+<pre><code>    scrapy shell &#39;http://url.toscrape.com/page/1/&#39;
+</code></pre>
